@@ -1,0 +1,1 @@
+import 'package:flutter/material.dart';const double smallPadding = 8.0;const double standardPadding = 16.0;const double mediumPadding = 24.0;const double largePadding = 34.0;const double defaultFontSize = 18.0;const Color ciColor = Color.fromRGBO(0, 112, 135, 1);const List<Color> gradientColor = [Colors.deepPurple, Colors.blue, ciColor];
