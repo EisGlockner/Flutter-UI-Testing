@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_web_plugins/flutter_web_plugins.dart';
 import 'package:flutter_web_test/defaults.dart' as defaults;
 import 'package:flutter_web_test/screens/dashboard/dashboard_screen.dart';
 import 'package:flutter_web_test/screens/login/login_screen.dart';
@@ -6,6 +7,7 @@ import 'package:flutter_web_test/screens/todo/todo_screen.dart';
 import 'package:go_router/go_router.dart';
 
 void main() {
+  setUrlStrategy(PathUrlStrategy());
   runApp(MyApp());
 }
 
